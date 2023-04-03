@@ -1,0 +1,73 @@
+#chart-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111f48;
+    margin: 0;
+}
+
+#topbar {
+    width: inherit;
+    flex: 1;
+    background-color: white;
+    border-radius: 15px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#topbar-logo {
+    height: 7vh;
+    border-radius: 100px;
+    translate: -30px;
+}
+
+.nav-item {
+    border: none;
+    align-self: center;
+    margin-left: 10px;
+    translate: -50px;
+    height: inherit;
+}
+
+.user-item {
+    border: none;
+    justify-self: end;
+    padding: 2vh;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.user-item:hover {
+    background-color: #111f48;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#chart-dashboard {
+    width: inherit;
+    flex: 12;
+    margin: 3px;
+    display: flex;
+}
+
+#chart {
+    flex: 5;
+    height: 100%;
+    margin: 3px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#statistics {
+    flex: 2;
+    width:100%;
+    background-color: white;
+    height: 100%;
+    border-radius: 15px;
+    margin: 3px;
+}
